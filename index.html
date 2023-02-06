@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redesign</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding: {
+                        DEFAULT: '1rem',
+                        sm: '2rem',
+                        lg: '4rem',
+                        xl: '5rem',
+                        '2xl': '6rem',
+                    },
+                },
+                extend: {
+                    fontFamily: {
+                        default: 'Raleway',
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                        tranparent: 'transparent',
+                        white: '#ffffff',
+                        grey: '#969696',
+                        blue: '#0EC5D7',
+                        orange: '#E18700'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container flex items-center justify-between">
+        <nav class="flex justify-center">
+            <div class="flex">
+                <img class="fond-bold" src="./assets/svg/logo.svg" alt="">
+            </div>
+            <a href="#" class="text-[14px] ml-[65px] py-[29px] px-2 text-grey">Home</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Services</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Product</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Our Work</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Blog</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Resource</a>
+            <a href="#" class="text-[14px] py-[29px] px-2 text-grey">Contact</a>
+        </nav>
+        <div class="flex gap-6">
+            <img class="relative ml-[145px]" src="./assets/svg/icon-search.svg" alt="">
+            <a class="py-[16px] px-[32px] text-white font-semibold bg-blue rounded-full" href="">Get Start</a>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="container mt-[145px]">
+            <div class="flex gap">
+                <div class="flex flex-col w-1/2">
+                    <div>
+                        <p class="py-[16px] px-[32px] rounded-[100px] max-w-fit text-orange font-[14px] bg-[#FDF5EB]">
+                            Development</p>
+                    </div>
+                    <h1 class="text-[62px] mt-[16px] font-bold"> It's fun to <span class="text-orange">build</span> a
+                        Website With The <span class="text-orange"> Mangcoding Team </span></h1>
+                    <P class="text-grey w-[650px] mt-[24px] font-[14px]">The Mangcoding team will help a website for
+                        your company with quality and guaranted service with custom templates you can create a website
+                        as you like</P>
+                    <div class="flex mt-[48px] justify-start">
+                        <a class="py-[16px] px-[32px] text-white bg-blue rounded-full" href="">Get Start</a>
+                        <a class="mt-[15px] font-bold ml-[24px]" href="#">Explor Our Blog</a>
+                        <img class="ml-[8px]" src="./assets/svg/icon-plug.svg" alt="">
+                    </div>
+                </div>
+                <div class="flex w-1/2">
+                    <img class="h-fit" src="./assets/images/web.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-[90px] text-grey font-[18px]">
+        Brand That Us
+    </div>
+    <div class="container gap-10 flex">
+        <img src="./assets/images/brand-1.png" alt="">
+        <img src="./assets/images/brand-2.png" alt="">
+        <img src="./assets/images/brand-3.png" alt="">
+        <img src="./assets/images/brand-4.png" alt="">
+        <img src="./assets/images/brand-5.png" alt="">
+        <img src="./assets/images/brand-6.png" alt="">
+    </div>
+
+    <section>
+        <div class="container">
+            <h2 class="text-[32px] font-semibold w-[300px] mt-[144px]">Service Our Mangcoding Team</h2>
+            <div class="flex">
+                <p class="w-[650px] mt-[20px] text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dolores
+                    esse
+                    facilis, atque iure voluptas. Nam eum non nihil dolores?</p>
+                <a class="flex justify-end py-[16px] px-[32px] text-white font-semibold bg-blue rounded-full ml-[540px]"
+                    href="#">Our Service</a>
+            </div>
+        </div>
+        <div class="container flex justify-between text-center mt-10 ">
+            <div class="rounded-[32px] m-10 border w-1/3">
+                <div class="p-[40px]">
+                    <img class="mx-auto" src="./assets/images/Sp.png" alt="">
+                    <h3 class="text-[18px] font-bold mt-[24px]">Shopify Theme Development</h3>
+                    <p class="text-center mt-[16px]"> Start from 700USD for project or 30USD per hours </p>
+                </div>
+            </div>
+            <div class="rounded-[32px] m-10 border w-1/3">
+                <div class="p-[40px]">
+                    <img class="mx-auto" src="./assets/images/Ww.png" alt="">
+                    <h3 class="text-[18px] mt-[24px] font-bold">Web Applicatioon Development</h3>
+                    <p class=" text-center mt-[16px]"> Start from 700USD for project or 30USD per hours </p>
+                </div>
+            </div>
+            <div class="rounded-[32px] m-10 border w-1/3">
+                <div class="p-[40px]">
+                    <img class="mx-auto" src="./assets/images/Wp.png" alt="">
+                    <h3 class="text-[18px] mt-[24px] font-bold">WordPress Theme Development</h3>
+                    <p class="text-center mt-[16px]"> Start from 700USD for project or 30USD per hours </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-[32px] text-center font-bold mt-[110px]">What We Do</h2>
+        <div class="">
+            <p class="w-[525px] ml-[400px] text-center text-[14px] mt-[24px] text-grey">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Tempora dolores esse
+                facilis, atque iure voluptas. Nam eum non nihil dolores?</p>
+        </div>
+    </div>
+
+    <div class="container flex justify-center mt-[40px] relative">
+        <div>
+            <div class="bg-[#EBEEEF] p-2 w-fit mx-auto rounded-full">
+                <img class="box-border" src="./assets/images/design.png" alt="">
+            </div>
+            <h3 class="text-center font-bold">Design</h3>
+            <p class="w-[300px] leading-[25px] text-center text-grey">Create Wireframe Display
+                Designs And Initial UI Designs For Websites
+            </p>
+        </div>
+        <div>
+            <img class="absolute left-[400px] top-[70px]" src="./assets/svg/line.svg" alt="">
+        </div>
+        <div>
+            <div>
+                <img class="bg-[#EBEEEF] mt-[159px] p-2 w-fit mx-auto rounded-full" src="./assets/images/FE.png" alt="">
+            </div>
+            <h3 class="text-center font-bold">Design</h3>
+            <p class="w-[300px] leading-[25px] text-grey text-center text-">Create Wireframe Display
+                Designs And Initial UI Designs For Websites
+            </p>
+        </div>
+        <div>
+            <img class="absolute left-[680px] top-[70px]" src="./assets/svg/line2.svg" alt="">
+        </div>
+        <div>
+            <div>
+                <img class="bg-[#EBEEEF] p-2 w-fit mx-auto rounded-full" src="./assets/images/BE.png" alt="">
+            </div>
+            <h3 class="text-center font-bold">Design</h3>
+            <p class="w-[300px] text-grey leading-[25px] text-center">Create Wireframe Display
+                Designs And Initial UI Designs For Websites
+            </p>
+        </div>
+        <div>
+            <img class="absolute right-[400px] top-[70px]" src="./assets/svg/line.svg" alt="">
+        </div>
+        <div>
+            <div>
+                <img class="bg-[#EBEEEF] rounded-full mt-[159px] p-2 w-fit mx-auto" src="./assets/images/CT.png" alt="">
+            </div>
+            <h3 class="text-center font-bold">Design</h3>
+            <p class="w-[300px] text-grey leading-[25px] text-center">Create Wireframe Display
+                Designs And Initial UI Designs For Websites
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-[32px] text-center font-bold mt-[110px]"> Our Work </h2>
+        <div class="">
+            <p class="w-[525px] ml-[400px] text-center text-[14px] text-grey">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Nam eum non nihil dolores?</p>
+        </div>
+    </div>
+
+    <section class="container flex justify-between">
+        <div>
+            <div>
+                <img class=""" src=" ./assets/images/work.jpg" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">Retainer Orely Studio</h3>
+                <a href="" class="mt-[24px]">https://retainer.orely.co/</a>
+                <div class="btn">
+                    <button class="mt-[24px] bg-white border w-1/6">WordPress</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Tailwind</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="" src="./assets/images/work2.jpg" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">Beacukai Sangatta</h3>
+                <a href="" class="mt-[24px]">https://bcsangatta.beacukai.go.id/</a>
+                <div class="btn">
+                    <button class="mt-[24px] bg-white border w-1/6">WordPress</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Tailwind</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Design</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="container flex justify-between">
+        <div>
+            <div>
+                <img class=""" src=" ./assets/images/work3.jpg" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">Beacukai Sangatta</h3>
+                <a href="" class="mt-[24px]">https://fisid.org/</a>
+                <div class="btn">
+                    <button class="mt-[24px] bg-white border w-1/6">WordPress</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Tailwind</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Design</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="" src="./assets/images/work4.jpg" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">Retainer Orely Studio</h3>
+                <a href="" class="mt-[24px]">https://retainer.orely.co/</a>
+                <div class="btn">
+                    <button class="mt-[24px] bg-white border w-1/6">WordPress</button>
+                    <button class="mt-[24px] bg-white border w-1/6">Tailwind</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="container flex justify-center">
+        <div>
+            <a class="mt-[40px] justify-end py-[16px] px-[32px] text-white font-semibold bg-blue rounded-full flex w-fit"
+                href="">Get Start</a>
+        </div>
+    </section>
+
+
+    <section class="container mt-[110px]">
+        <div class="">
+            <h2 class="text-[32px] font-bold w-[500px]">What Do People Say About The Mangcoding Team</h2>
+        </div>
+        <div class="flex">
+            <div>
+                <div>
+                    <div
+                        class="flex justify-start rounded-[24px] w-max border-transparent py-[16px] px-[32px] shadow-md mt-[40px]">
+                        <img class="bg-[#FFFFFF] rounded-full" src="./assets/images/riko.png" alt="">
+                        <div class="ml-[24px]">
+                            <h3 class="text-[18px] font-bold">Riko Sapto Dimo</h3>
+                            <p class="text-grey">Managing Director Orely.co</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-start max-w-fit py-[16px] px-[32px]">
+                        <img class="bg-[#FFFFFF] rounded-full" src="./assets/images/ceria.png" alt="">
+                        <div class="ml-[24px] mt-[12px]">
+                            <h3 class="text-[18px] mt-[40px] font-bold">Riko Sapto Dimo</h3>
+                            <p class="text-grey">Managing Director Orely.co</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border rounded-[24px] mt-[40px] ml-[150px] p-[40px]">
+                <img class="mb-[16px]" src="./assets/svg/kurwel.svg" alt="">
+                <p class=" text-[24px] font-bold"> It's was a great experience to work with Mangcoding, we
+                    love the details result, and propessionalism.</p>
+                <img class="mt-[16px]" src="./assets/svg/kurwel2.svg" alt="">
+                <p class="text-[18px] font-bold">Riko Sapto Dito</p>
+                <div class="flex">
+                    <img src="./assets/svg/start.svg" alt="">
+                    <img src="./assets/svg/start.svg" alt="">
+                    <img src="./assets/svg/start.svg" alt="">
+                    <img src="./assets/svg/start.svg" alt="">
+                    <img src="./assets/svg/start.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-[32px] text-center font-bold mt-[110px]"> Our Blog </h2>
+    </div>
+
+    <section class="container flex justify-center gap-[100px]">
+        <div>
+            <div>
+                <img class="" src=" ./assets/images/f1.png     " alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</h3>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="" src="./assets/images/b1.png" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</h3>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="" src="./assets/images/b3.png" alt="">
+                <h3 class="mt-[24px] font-bold text-[24px]">8 Alasan Pentingnya Melakukan Pencadangan Situs Web</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="container flex max-w-fit justify-around">
+        <div>
+            <a class="mt-[40px] justify-end py-[16px] px-[32px] text-white font-semibold bg-blue rounded-full flex w-fit"
+                href="">Get Start</a>
+        </div>
+    </section>
+
+    <section class="container bg-[#0E3B40] p-[40px] text-[#DDDDDD] leading-9 mt-[95px]">
+        <div class="flex justify-between">
+            <div class="ml-[40px]">
+                <img src="./assets/images/mc2.png" alt="">
+                <p class="w-[525px] mt-[40px]"> Mangcoding Team Will Help You In Branding Your Product Mangcoding Team Will Help You In Branding Your Product Mangcoding
+                    Team Will Help You In Branding Your Product </p> 
+                    <div class="flex gap-4 mt-[40px]">
+                        <img src="./assets/svg/ig.svg" alt="">
+                        <img src="./assets/svg/cat.svg" alt="">
+                        <img src="./assets/svg/yt.svg" alt="">
+                        <img src="./assets/svg/in.svg" alt="">
+                    </div>
+            </div>
+            <div class="ml-[24px]">
+                <h5 class="font-bold text-white">Mangcoding</h5>
+                <ul class="">
+                    <li class="">Home</li>
+                    <li class="">About</li>
+                    <li class="">Services</li>
+                    <li class="">blog</li>
+                    <li class="">Work</li>
+                    <li class="">Resource</li>
+                    <li class="">Contact</li>
+                </ul>
+            </div>  
+            <div class="ml-[24px]">
+                <h5 class="font-bold text-white">Services</h5>
+                <ul class="">
+                    <li class="">Custom Windows Theme Development</li>
+                    <li class="">Custom Plugin WordPress</li>
+                    <li class="">Custom Shopify Theme Development</li>
+                    <li class="">Custom App for Shopify</li>
+                    <li class="">Web Aplication</li>
+                </ul>
+            </div>
+            <div class="w-[300px] ml-0">
+                <h5 class="font-bold w-[300px] text-white">Services</h5>
+                <ul class="">
+                    <li class="flex">
+                     <img class="mr-[16px]" src="./assets/svg/email.svg" alt="">
+                     hello@mangcoding.com</li>
+                    <li class="flex">
+                    <img class="mr-[16px]" src="./assets/svg/call.svg" alt="">
+                        0266-6532078</li>
+                    <li class="flex">
+                    <img class="mr-[16px]" src="./assets/svg/call.svg" alt="">
+                        0857-5940-2332</li>
+                    <li class="flex mr-[40px]">
+                    <img class="mr-[18px]" src="./assets/svg/gps.svg" alt="">
+                        PT Anugrah Kreasi Digital, Karang Tengah, Cibadak-Sukabumi</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <h2 class="text-[14px] text-center mt-[110px]"> © 2022 Mangcoding. All rights reserved. </h2>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
